@@ -1,0 +1,19 @@
+<div class="header">
+  <p>admin works!</p>
+  <div class="routers">
+    <button (click)="goto('/setting/p1')">setting/p1</button>
+    <p></p>
+    <button (click)="goto('/g12/aaa')">group 12, page a</button>
+    <button (click)="goto('/g12/bbbb')">group 12, page b</button>
+    <button (click)="goto('/g12/ccccc')">group 12, page c</button>
+    <button (click)="goto('/g12/d')">group 12, page d</button>
+    <p></p>
+    <button (click)="logout()">Logout</button>
+  </div>
+</div>
+
+<div class="container">
+  <div class="outlet">
+    <router-outlet></router-outlet>
+  </div>
+</div>
